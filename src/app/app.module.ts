@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SearchFriendsComponent } from './search-friends/search-friends.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -20,7 +21,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     AddFriendsComponent,
-    ViewFriendsComponent
+    ViewFriendsComponent,
+    SearchFriendsComponent
   ],
   imports: [
     BrowserModule,
