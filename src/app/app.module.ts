@@ -16,6 +16,10 @@ const myRoute:Routes=[
   {
     path:"viewfriends",
     component:ViewFriendsComponent
+  },
+  {
+    path:"searchfriends",
+    component:SearchFriendsComponent
   }
 ]
 @NgModule({
