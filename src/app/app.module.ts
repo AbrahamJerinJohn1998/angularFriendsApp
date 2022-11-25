@@ -7,6 +7,7 @@ import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
 import { RouterModule, Routes } from '@angular/router';
 import { SearchFriendsComponent } from './search-friends/search-friends.component';
+import { NavbarComponent } from './navbar/navbar.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -22,7 +23,8 @@ const myRoute:Routes=[
     AppComponent,
     AddFriendsComponent,
     ViewFriendsComponent,
-    SearchFriendsComponent
+    SearchFriendsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
