@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AddFriendsComponent {
 name=""
-fri
-
+friendName=""
+friendNickName=""
+DescribeYourFriend=""
 }
